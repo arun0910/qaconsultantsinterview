@@ -109,25 +109,6 @@ public class ComparingTables {
 				"Headers of the table didn't match.\nTable 1 Headers: " + table1DataList.get(0) + "\nTable 2 Headers: "
 						+ table2DataList.get(0));
 
-		//table comparison test data
-		table1DataList.clear();
-		table2DataList.clear();
-		List<String> l1 = new ArrayList<String>();
-		List<String> l2 = new ArrayList<String>();
-		List<String> l3 = new ArrayList<String>();
-		List<String> l4 = new ArrayList<String>();
-		
-		l1 = Arrays.asList("A1", "A2", "A3");
-		l2 = Arrays.asList("B1", "B2", "B3");
-		table1DataList.add(l1);
-		table1DataList.add(l2);
-		l3 = Arrays.asList("A1", "A2", "A3");
-		l4 = Arrays.asList("B1", "B2", "22");
-		table2DataList.add(l3);
-		table2DataList.add(l4);
-		System.out.println(table1DataList);
-		System.out.println(table2DataList);
-
 		// compare the data in the tables by verifying data of row from one table is present in another table
 		for (List<String> td : table1DataList) {
 			System.out.println(td);
