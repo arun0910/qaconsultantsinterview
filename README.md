@@ -1,13 +1,13 @@
 # qaconsultantsinterview
 
 
-##Tools Required
+**Tools Required**
 
 	- Install Eclipse 
 	- Install TestNG from Eclipse Marketplace
 
 
-##Steps to configure the automation test environment
+**Steps to configure the automation test environment**
 
 	1. Clone the repo
 	2. Import the project as maven project
@@ -16,14 +16,14 @@
 	4. Make sure chrome driver .exe file exists in driver directory
 
 
-##Execute tests
+**Execute tests**
 
 	Run ComparingTables.java under src/test/java/tests directory as TestNG Test
 		1. Right Click ComparingTables.java file
 		2. Select Run As --> TestNG Test
 
 
-##Solution Explanation
+**Solution Explanation**
 
 	1. Launch the browser with url
 	2. Read the table 1 data and store as List<List<Strings>>
