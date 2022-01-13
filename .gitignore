@@ -1,0 +1,5 @@
+Automation/test-output/*
+Automation/.classpath
+Automation/.project
+*.prefs
+*.class
